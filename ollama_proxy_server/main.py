@@ -81,7 +81,7 @@ def main():
     authorized_users = get_authorized_users(args.users_list)
 
     ASCIIColors.red("Ollama Proxy Server")
-    ASCIIColors.multicolor(["Author:", "ParisNeo"], [ASCIIColors.color_red, ASCIIColors.color_magenta])
+    # ASCIIColors.multicolor(["Author:", "ParisNeo"], [ASCIIColors.color_red, ASCIIColors.color_magenta])
 
     # Display the current configuration
     display_config(args, servers, authorized_users)
